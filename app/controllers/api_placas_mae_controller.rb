@@ -1,0 +1,2 @@
+class ApiPlacasMaeController < ApplicationController
+end

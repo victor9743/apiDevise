@@ -1,0 +1,2 @@
+class ApiMemoriasRamController < ApplicationController
+end
