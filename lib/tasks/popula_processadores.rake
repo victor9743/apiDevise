@@ -3,12 +3,12 @@ namespace :popula_processadores do
     task import: :environment do
         Processador.create!(
             produto:                "Core i5",
-            marca:                  "Intel",
+            marca:                  "intel",
         )
 
         Processador.create!(
             produto:                "Core i7",
-            marca:                  "Intel",
+            marca:                  "intel",
         )
 
         Processador.create!(
