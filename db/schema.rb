@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2023_01_03_231123) do
 
   create_table "memoria_rams", force: :cascade do |t|
     t.string "produto"
-    t.integer "tamanho"
+    t.text "tamanho", default: [], array: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
