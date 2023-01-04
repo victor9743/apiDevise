@@ -23,11 +23,10 @@ default: &default
 
 development:
   <<: *default
-  # database: DeviseInformatica
-  database: DeviseInformatica2
+  database: DeviseInformatica
+  # database: DeviseInformatica2
   username: postgres
-  # password: 123456
-  password: Zv#T$2q#pQKv
+  password: 123456
   host: localhost
 
   # The specified database role being used to connect to postgres.
