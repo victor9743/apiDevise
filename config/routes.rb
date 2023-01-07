@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   get '/placasVideo', to: 'api_placas_video#getAll'
 
   post '/salvarPedido', to: 'api_pedidos#savePedido'
+
+  get '/detalhesPedido', to: 'api_pedidos#getPedido'
 end
